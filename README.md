@@ -27,9 +27,9 @@ http://localhost:8000/docs
 ## Project structure
 
 The POC is a simple, minimalist, single module application with the following:
-- main.py: module base, containing the FastAPI service definition
-- database.py: database connectivity definition
-- user.py: create / read service to showcase the POC project
-- model.py: the data model definition for the persistence storage
-- schema.py: the DTOs to interact with the REST interface
-- service.py: a simple service layer (with some overlapping with the persistence layer)
+- **main.py**: module base, containing the FastAPI service definition
+- **database.py**: database connectivity definition
+- **user.py**: create / read service to showcase the POC project
+- **model.py**: the data model definition for the persistence storage
+- **schema.py**: the DTOs to interact with the REST interface
+- **service.py**: a simple service layer (with some overlapping with the persistence layer)
